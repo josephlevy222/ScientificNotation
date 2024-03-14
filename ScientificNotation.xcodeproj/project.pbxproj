@@ -11,6 +11,7 @@
 		37A06D3F2BA2022C00BEF986 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A06D3E2BA2022C00BEF986 /* ContentView.swift */; };
 		37A06D412BA2025100BEF986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A06D402BA2025100BEF986 /* Assets.xcassets */; };
 		37A06D452BA2025100BEF986 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A06D442BA2025100BEF986 /* Preview Assets.xcassets */; };
+		37A06D502BA3638A00BEF986 /* ScientificNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A06D4F2BA3638A00BEF986 /* ScientificNotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		37A06D402BA2025100BEF986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A06D422BA2025100BEF986 /* ScientificNotation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScientificNotation.entitlements; sourceTree = "<group>"; };
 		37A06D442BA2025100BEF986 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37A06D4F2BA3638A00BEF986 /* ScientificNotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScientificNotation.swift; path = "../../Mode Analyzer-1D/Shared/ScientificNotation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				37A06D3C2BA2022C00BEF986 /* ScientificNotationApp.swift */,
 				37A06D3E2BA2022C00BEF986 /* ContentView.swift */,
+				37A06D4F2BA3638A00BEF986 /* ScientificNotation.swift */,
 				37A06D402BA2025100BEF986 /* Assets.xcassets */,
 				37A06D422BA2025100BEF986 /* ScientificNotation.entitlements */,
 				37A06D432BA2025100BEF986 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				37A06D3F2BA2022C00BEF986 /* ContentView.swift in Sources */,
 				37A06D3D2BA2022C00BEF986 /* ScientificNotationApp.swift in Sources */,
+				37A06D502BA3638A00BEF986 /* ScientificNotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

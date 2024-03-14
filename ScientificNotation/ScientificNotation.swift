@@ -24,3 +24,22 @@ extension String {
 		self = scientificNotation(format: format, scientific, exponentExclusion: exponentExclusion)
 	}
 }
+
+
+func scientificString(_ input: String, format: String = "%g", 
+					  exponentExclusion: any RangeExpression<Int> = 0...1 ) -> String {
+	let components = input.components(separatedBy: " ")
+	var result: String = ""
+	
+	for component in components {
+		if let number = Double(component) {
+			// If the component is a convertible number, add it to the result
+			result += scientificNotation(format: format, number, exponentExclusion: exponentExclusion) + " "
+		} else {
+			// Otherwise, add the word to the result
+			result += (component) + " "
+		}
+	}
+
+	return result
+}

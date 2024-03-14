@@ -5,7 +5,7 @@
 //  Created by Joseph Levy on 3/13/24.
 //
 
-import SwiftUI
+import SwiftUI 
 
 struct ContentView: View {
 	let numbers: [Double] = {
